@@ -15,6 +15,12 @@ print(f"valor: {es_estudiante}, tipo: {type(es_estudiante)}")
 complejo = complex(2, 3)
 print(f"valor: {complejo}, tipo: {type(complejo)}")
 
+valor = None
+print(f"valor: {valor}, tipo: {type(valor)}")
+
+nan = float("nan")
+print(f"valor: {nan}, tipo: {type(nan)}")
+
 print("##### ESTRUCTURAS DE DATOS #####")
 
 lista = ["manzana", "naranja", "frutilla", True, 15, [12.5, 5.5]]
@@ -28,3 +34,17 @@ print(f"valor: {set_mio}, tipo: {type(set_mio)}")
 
 diccionario = {"nombre": "Ana", "edad": 35, "altura": 1.68}
 print(f"valor: {diccionario}, tipo: {type(diccionario)}")
+
+estudiante = {
+    "nombre": "Pablo",
+    "edad": 28,
+    "materias": {
+        "Python": {
+            "clase_1": "Priimeros pasos",
+            "clase_2": "Instalacio"
+        }, "JS": {
+            "clase_1": "Priimeros pasos",
+            "clase_2": "Instalacio"
+        }
+    }
+}
