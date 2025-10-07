@@ -27,6 +27,7 @@ longitud = len(texto)
 print(type(texto))
 print(longitud)
 
+# slicing
 #            123456789
 texto_dos = "Hola Info 🚀"
 subcadena = texto_dos[5:9]
